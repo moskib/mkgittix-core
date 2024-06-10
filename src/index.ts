@@ -1,15 +1,11 @@
-interface Color {
-  red: number;
-  blue: number;
-  green: number;
-}
+export { BadRequestError } from './errors/bad-request-error';
+export { CustomError } from './errors/custom-error';
+export { DatabaseConnectionError } from './errors/database-connection-error';
+export { NotAuthorizedError } from './errors/not-authorized-error';
+export { NotFoundError } from './errors/not-found-error';
+export { RequestValidationError } from './errors/request-validation-error';
 
-const color: Color = {
-  red: 21,
-  blue: 10,
-  green: 10,
-};
-
-console.log(color);
-
-export default color;
+export { currentUser } from './middlewares/current-user';
+export { errorHandler } from './middlewares/error-handler';
+export { requireAuth } from './middlewares/require-auth';
+export { validateRequest } from './middlewares/validate-request';
