@@ -18,3 +18,6 @@ export { Publisher } from './events/core/classes/base-publisher';
 export { Subjects } from './events/core/types/subjects';
 export { TicketCreatedEvent } from './events/tickets/ticket-created-event';
 export { TicketUpdatedEvent } from './events/tickets/ticket-updated-event';
+
+// types
+export { OrderStatus } from './events/types/order-status';
