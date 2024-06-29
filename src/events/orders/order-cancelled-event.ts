@@ -1,4 +1,4 @@
-import { Subjects } from '../core/types/subjects';
+import { Subjects } from '../types/subjects';
 
 export interface OrderCancelledEvent {
   subject: Subjects.OrderCancelled;
