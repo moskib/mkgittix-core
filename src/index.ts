@@ -13,5 +13,8 @@ export * from './events/tickets';
 // Order Events
 export * from './events/orders';
 
+// Expiration Events
+export * from './events/expiration';
+
 // types
 export * from './events/types';
