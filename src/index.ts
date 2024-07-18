@@ -16,5 +16,8 @@ export * from './events/orders';
 // Expiration Events
 export * from './events/expiration';
 
+// Payment Events
+export * from './events/payments';
+
 // types
 export * from './events/types';
