@@ -1,5 +1,5 @@
 import { Producer } from 'kafkajs';
-import { Topics } from './topics';
+import { Topics } from '../types/topics';
 
 interface Event {
   topic: Topics;

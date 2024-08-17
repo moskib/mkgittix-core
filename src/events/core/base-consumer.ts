@@ -1,6 +1,6 @@
 import { EachMessagePayload } from 'kafkajs';
-import { Topics } from './topics';
-import { KafkaWrapper } from '../kafka-wrapper';
+import { Topics } from '../types/topics';
+import { KafkaWrapper } from '../core/kafka-wrapper';
 
 interface Event {
   topic: Topics;
