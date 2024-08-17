@@ -1,7 +1,6 @@
-import { Subjects } from '../types/subjects';
-
+import { Topics } from '../types/topics';
 export interface OrderCancelledEvent {
-  subject: Subjects.OrderCancelled;
+  subject: Topics.OrderCancelled;
   data: {
     id: string;
     version: number;

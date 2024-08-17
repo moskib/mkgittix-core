@@ -1,3 +1,6 @@
+/**
+ * @deprecated Use Topics instead
+ */
 export enum Subjects {
   TicketCreated = 'ticket:created',
   TicketUpdated = 'ticket:updated',

@@ -6,6 +6,9 @@ interface Event {
   data: any;
 }
 
+/**
+ * @deprecated use base-consumer instead
+ */
 export abstract class Listener<T extends Event> {
   abstract subject: T['subject'];
   abstract queueGroupName: string;

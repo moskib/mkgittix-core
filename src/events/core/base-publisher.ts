@@ -6,6 +6,9 @@ interface Event {
   data: any;
 }
 
+/**
+ * @deprecated use base-producer instead
+ */
 export abstract class Publisher<T extends Event> {
   abstract subject: T['subject'];
   protected client: Stan;
