@@ -2,7 +2,7 @@ import { Topics } from '../types/topics';
 import { OrderStatus } from '../types/order-status';
 
 export interface OrderCreatedEvent {
-  subject: Topics.OrderCreated;
+  topic: Topics.OrderCreated;
   data: {
     id: string;
     version: number;

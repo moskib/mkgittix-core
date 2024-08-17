@@ -1,6 +1,6 @@
 import { Topics } from '../types/topics';
 export interface PaymentCreatedEvent {
-  subject: Topics.PaymentCreated;
+  topic: Topics.PaymentCreated;
   data: {
     id: string;
     orderId: string;

@@ -1,7 +1,7 @@
 import { Topics } from '../types/topics';
 
 export interface TicketCreatedEvent {
-  subject: Topics.TicketCreated;
+  topic: Topics.TicketCreated;
   data: {
     id: string;
     version: number;
