@@ -63,5 +63,3 @@ export class KafkaWrapper {
     }
   }
 }
-
-export const kafkaWrapper = new KafkaWrapper();
